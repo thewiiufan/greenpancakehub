@@ -33,3 +33,17 @@ autofarmgroup1:Toggle({
         _G.register_farm = state
     end
 })
+
+autofarmgroup1:Slider({
+    Title = "Speed",
+    Desc = "Lower = safer from kicks (24 and below is safest)",
+    Step = 1,
+    Value = {
+        Min = 10,
+        Max = 35,
+        Default = 24,
+    },
+    Callback = function(value)
+        _G.Speed = value
+    end
+})

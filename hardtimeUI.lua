@@ -34,9 +34,9 @@ autofarmgroup1:Toggle({
     end
 })
 
-autofarmgroup1:Slider({
+Tabs["Autofarm"]:Slider({
     Title = "Speed",
-    Desc = "Lower = safer from kicks (24 and below is safest)",
+    Desc = "High ping should be lower\n(24 & under safest!)",
     Step = 1,
     Value = {
         Min = 10,
